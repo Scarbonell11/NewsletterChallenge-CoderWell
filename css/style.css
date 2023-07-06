@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+  background-image: url(../assets/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.card {
+  background-color: white;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: white;
+  background-color: #2355f2;
+  font-size: 17px;
+  height: 150px;
+  width: 400px;
+  background-image: url(/assets/Pattern.png);
+  background-size: auto;
+}
+
+.title h1 {
+  text-align: center;
+  width: 200px;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+.paragraph p {
+  color: #6d6d6d;
+  padding: 10px;
+}
+
+.form {
+  padding: 10px;
+}
+
+.form label {
+  color: #a6a6a6;
+  margin-left: 5px;
+}
+
+.field {
+  background-color: #f5f7fa;
+  border-color: #dee1e4;
+  width: 220px;
+  border-width: 1px;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.buttons {
+  background-color: #2355f2;
+  border-color: #2355f2;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  width: 120px;
+  padding: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+.buttons:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 5px 5px 5px;
+  transition: 0.4s;
+}
+
+.testimonialBoxContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.boxTop {
+  display: flex;
+  align-items: center;
+  margin: 8px;
+}
+
+.profile {
+  display: flex;
+  padding: 5px;
+}
+
+.profileImg {
+  padding: 0px 10px;
+}
+
+.nameUser {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.nameUser strong {
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
+.nameUser span {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.paragraph2 {
+  padding: 20px 50px;
+  text-align: center;
+  color: #6d6d6d;
+}
